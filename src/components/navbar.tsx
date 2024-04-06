@@ -17,7 +17,7 @@ export function Navbar() {
       </Link>
       <Link
         className="p-4 hover:bg-white/20 transition-all duration-200 rounded-xl"
-        href="/remote/static"
+        href="/remote"
       >
         Remote
       </Link>
