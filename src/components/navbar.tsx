@@ -21,6 +21,12 @@ export function Navbar() {
       >
         Remote
       </Link>
+      <Link
+        className="p-4 hover:bg-white/20 transition-all duration-200 rounded-xl"
+        href="/raw"
+      >
+        Raw (no blur)
+      </Link>
     </nav>
   )
 }
