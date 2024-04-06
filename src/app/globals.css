@@ -31,3 +31,8 @@ body {
     text-wrap: balance;
   }
 }
+
+
+.image-grid {
+  @apply w-full aspect-square object-cover rounded-3xl;
+}

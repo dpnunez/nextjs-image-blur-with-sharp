@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="w-full max-w-6xl mx-auto">
           <Navbar />
-          <main>{children}</main>
+          <main className="grid grid-cols-3 gap-4">{children}</main>
         </div>
       </body>
     </html>
